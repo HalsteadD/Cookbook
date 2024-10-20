@@ -1,0 +1,206 @@
+body {
+			background-color: #F4F9ED;
+			margin:0;
+            font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+		}
+
+/*Nav Bar*/
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A8CD9F;
+}
+
+.navbar li {
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #E2F4C5;
+    height: 115px;
+    align-content: center;
+    width: 125px;
+}
+
+.navbar li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlinks img {
+    height: 30px;
+    align-content: center;
+    padding: 0px 47px 5px 47px;
+}
+
+.navbarlogo {
+    float: left;
+    padding: 20px 0px 20px 40px;
+}
+
+.navbar ul{
+    margin: 0;
+}
+
+.navbar li:hover{
+    background-color: #496989;
+}
+
+/*Footer*/
+.footer {
+    background-color: #58A399;
+    height: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footerright{
+    float: right;
+    padding: 0px 40px 0px 0px;
+}
+
+.footerleft{
+    float: left;
+    padding: 0px 0px 0px 40px;
+}
+
+/*body section*/
+.mainbodycontent {
+    width: 1100px;
+    margin: auto;
+}
+
+header {
+    color: #496989;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*Featured section*/
+.featuredcomlumns {
+    column-count: 3;
+    column-gap: 20px;
+    border-radius: 4px;
+}
+
+.featuredcard {
+    background-color: #E2F4C5;
+}
+
+.featuredcomlumns img {
+    margin: 0;
+    width: 100%;
+}
+
+.featurecardbody {
+    padding: 10px 40px 40px 40px;
+}
+
+.featuredcomlumns h1{
+    color: #496989;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button {
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #496989;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    margin: 20px 56px 5px 56px;
+}
+
+.button a:hover{
+    color: #000000;
+    background-color: #A8CD9F;
+}
+
+/*Recipe list sections*/
+.section1 {
+    background-color: #A8CD9F;
+    padding: 10px 20px 20px 20px;
+}
+
+.section2 {
+    background-color: #E2F4C5;
+    padding: 10px 20px 20px 20px;
+}
+
+.section1 h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.section2 h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sectiontable {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.sectiontable table {
+    border-collapse: collapse;
+    width: 520px;
+}
+
+.sectiontable th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+/*tr:nth-child(even) {
+    background-color: #F4F9ED;
+}*/
+
+.sectiontable tr:hover {
+    background-color: #496989;
+}
+
+.sectiontable tr a:hover {
+    color: #ffffff;
+}
+
+td {
+    border-bottom: 1px solid #58A399;
+}
+
+.sectiontable a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Recipe Pages*/
+.RecipeTitle {
+    background-color: #58A399;
+    color: #ffffff;
+    width: 100%;
+    padding: 40px 0px 0px 40px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.recipetable {
+    column-count: 2;
+    column-gap: 20px;
+}
